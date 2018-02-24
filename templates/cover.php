@@ -7,7 +7,7 @@
       <h1 class="candidates">
         <strong><?php echo get_theme_mod('candidate1', 'Candidat⋅e'); ?></strong>
         <?php if (!empty(get_theme_mod('candidate2', 'Remplaçant⋅e'))): ?>
-        <span class="successor">& <?php echo get_theme_mod('candidate2', 'Remplaçant⋅e'); ?></span>
+        <span class="successor"><?php echo get_theme_mod('candidate2', 'Remplaçant⋅e'); ?></span>
         <?php endif; ?>
       </h1>
       <div class="logo">
@@ -16,7 +16,6 @@
         </div>
         <div class="text">
           <div class="title">La France Insoumise</div>
-          <div class="subtitle">avec Jean-Luc Mélenchon</div>
         </div>
       </div>
       <div class="cities">
@@ -25,7 +24,6 @@
       <div class="district">
         <?php echo get_theme_mod('district', 'Xème circonscription du Département'); ?>
       </div>
-      <div class="election">Élections législatives 2017</div>
       <button class="scrolldown"><span>En savoir plus</span></button>
     </div>
   </div>
